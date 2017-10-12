@@ -18,7 +18,8 @@
   "main": "./index.js",
   "dependencies": {
     "explain-error": "~1.0.4",
-    "mysql": "^2.14.1"
+    "mysql": "^2.14.1",
+    "safe-buffer": "~5.1.1"
   },
   "devDependencies": {
     "proxyquire": "~1.8.0",

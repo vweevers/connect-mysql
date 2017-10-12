@@ -3,6 +3,7 @@
 const test = require('tape')
 const EventEmitter = require('events').EventEmitter
 const proxyquire = require('proxyquire')
+const Buffer = require('safe-buffer').Buffer;
 const noop = function() {}
 const mocks = { pool: null }
 
