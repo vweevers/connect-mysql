@@ -1,19 +1,19 @@
 {
+  "name": "connect-mysql-session-store",
+  "description": "MySQL session store for connect",
   "author": "Nathan LaFreniere <nlf@andyet.net>",
   "contributors": [
     "Anton Skshidlevsky <meefik@gmail.com>",
     "Jason Gerfen <jason.gerfen@gmail.com>"
   ],
-  "name": "connect-mysql",
-  "description": "a MySQL session store for connect",
   "version": "2.1.5",
   "scripts": {
     "test": "node test.js"
   },
-  "homepage": "https://github.com/nlf/connect-mysql",
+  "homepage": "https://github.com/vweevers/connect-mysql-session-store",
   "repository": {
     "type": "git",
-    "url": "git://github.com/nlf/connect-mysql.git"
+    "url": "git://github.com/vweevers/connect-mysql-session-store.git"
   },
   "main": "./index.js",
   "dependencies": {
@@ -25,6 +25,6 @@
     "tape": "~4.8.0"
   },
   "engines": {
-    "node": ">=0.8.19"
+    "node": ">=4"
   }
 }
