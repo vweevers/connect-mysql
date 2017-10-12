@@ -7,6 +7,9 @@
   "name": "connect-mysql",
   "description": "a MySQL session store for connect",
   "version": "2.1.5",
+  "scripts": {
+    "test": "node test.js"
+  },
   "homepage": "https://github.com/nlf/connect-mysql",
   "repository": {
     "type": "git",
@@ -17,7 +20,10 @@
     "explain-error": "~1.0.4",
     "mysql": "^2.14.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "proxyquire": "~1.8.0",
+    "tape": "~4.8.0"
+  },
   "engines": {
     "node": ">=0.8.19"
   }
